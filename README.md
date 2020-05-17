@@ -1,2 +1,2 @@
 # docker_project
-For docker workflow
+[![CircleCI](https://circleci.com/gh/Nirv2389/docker_project.svg?style=shield&circle-token=<eb5bee477849ab34c521cb3ece63970c8c0e0cc3>)](https://app.circleci.com/pipelines/github/Nirv2389/docker_project)
