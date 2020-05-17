@@ -12,7 +12,7 @@ env:
 	which pylint
 
 lint:
-	pylint --laod-plugins pylint_flask --disable=R,C flask_app/*.py nlib csvcli
+	pylint --load-plugins pylint_flask --disable=R,C flask_app/*.py nlib csvcli
 	
 lint-circleci:
 	pylint --output-format=parseable --load-plugins pyling_flask --disable=R,C flask_app/*.py blib csvcli > $$CIRCLE_ARTIFACTS/pylint.html
